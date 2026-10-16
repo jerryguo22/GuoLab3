@@ -17,7 +17,6 @@ struct ContentView: View {
             Image(systemName: imageName)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 350, height: 350)
                 .foregroundStyle(.orange)
             Text(textName)
                 .font(.largeTitle)
