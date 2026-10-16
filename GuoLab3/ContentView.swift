@@ -27,14 +27,15 @@ struct ContentView: View {
             {
                 if(imageName == "sun.max.fill"){
                     imageName = "hand.thumbsup"
-                    textName = "You Are Great"
+                    textName = "You Are Great!"
                 }
                 else{
                     imageName = "sun.max.fill"
-                    textName = "You Are Awesome"
+                    textName = "You Are Awesome!"
                 }
             }
                 .buttonStyle(.borderedProminent)
+                .buttonBorderShape(.roundedRectangle)
                 .foregroundStyle(.white)
                 .tint(.orange)
                 .padding()
